@@ -8,3 +8,4 @@
 # List of selected items with prices
 # Total cost
 # Skills practiced: loops, input(), conditionals, lists/dictionaries, sum(), print formatting
+//
