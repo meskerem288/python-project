@@ -5,6 +5,7 @@
 # Keeps looping until the user types “exit”.
 # Shows a summary at the end: number of completed tasks vs pending.
 # Skills practiced: lists, string parsing, loops, input, CRUD basics
+print("Welcome to a to do list App!")
 completed_task={}
 pending_task={}
 while True:
@@ -19,7 +20,7 @@ while True:
          completed_task[len(completed_task)+1]= pending_task.get(number)
          pending_task.pop(number)
      else:
-         print("enter valid number ")
+         print("please enter a valid number ")
     
 print(f"number of completed task :\n{completed_task} , \npending task :\n{pending_task}")
      
